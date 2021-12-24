@@ -6,7 +6,6 @@ Rails.application.routes.draw do
    get 'pages/about' ,  to: 'pages#about'
 
 
-
   # Defines the root path route ("/")
   # root "articles#index"
 end
