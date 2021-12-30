@@ -1,14 +1,19 @@
 <h1> Show The User Enter Data. </h1>
 
 
+
 <p>
 Title: <%=   @article.title%>
-
 </p>
 
 <p>
-
 Description: <%=   @article.description%>
+</p>
 
+<p>
+<%= link_to "Edit That Article!", edit_article_path %>
+</p>
 
+<p>
+<%= link_to "Back To Listing Articles Page!", articles_path %>
 </p>
