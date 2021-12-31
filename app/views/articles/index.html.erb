@@ -16,6 +16,7 @@
 <td><%= var.description %></td>
 <td><%= link_to "Edit", edit_article_path(var) %></td>
 <td><%= link_to "Show", article_path(var) %></td>
+<td><%= link_to "Delete", article_path(var), method: :delete, data: {confirm: "Are You Sure?"} %> </td>
 </tr>
 
 <%end%>
